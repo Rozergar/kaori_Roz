@@ -14,22 +14,32 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;700&family=Roboto:wght@300&display=swap" rel="stylesheet">
     </head>
   <body>
-    <header>
-      <div class="wrap">
-        <a class="logo" href="#"><img src="img/welcome.jpg" alt="" /></a>
-        <a class="top">Hand-made shop Kaori</a>
-        <ul class="nav">
-            <li><a href="./login.html">Войти</a></li>
-            <li><a href="#" class="active">Избранное</a></li>
-            <li><a href="#">Корзина</a></li>
-            <li><a href="#">Доставка и оплата</a></li>
-          </ul>
-        </div>
+    <header class="header">
+        <div class="header__inner">
+            <div class="header__logo-wrapper">
 
+                <img class="header__logo" width="60" src="img/welcome.jpg" alt="">
+
+                <div class="header__logo-text">
+                    <p class="header__logo-title">Hand-made shop Kaori</p>
+                </div>
+
+            </div>
+            <div class="header__contents">
+                <div class="header__menu">
+                    <ul class="nav">
+                      <li><a href="./login.html">Войти</a></li>
+                      <li><a href="#" class="active">Избранное</a></li>
+                      <li><a href="#">Корзина</a></li>
+                      <li><a href="#">Доставка и оплата</a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </header>
         <input type="text" class="search" id="text-to-find" value="" placeholder="Поиск...">
         <!--<input type="button" onclick="javascript: FindOnPage('text-to-find'); return false;" value="Искать"/>-->
-        
-    </header>
 
     <main>
       <div class="start">Добро пожаловать в наш интернет-магазин!
